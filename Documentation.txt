@@ -1,0 +1,35 @@
+How to set up
+	- Run get-pip.py
+		-wait for the install to finish
+	- Open CMD and run, "pip install InstagramAPI"
+		-Wait for it to finish
+	- In cmd type E:
+		- CD to E:\Personal\Auto-Memepage\Program and Packages\reddit-fetch-master
+	- enter, "pip install -r requirements.txt"
+
+	- in cmd --- > python grab_pictures.py -s *name-of-the-subreddits* -n *number-of-photos(optional)* -t *top posts of [day, week, month, year, all](optional)*
+				like ----->    python grab_pictures.py -s itookapicture CozyPlaces -n 100 -t all
+
+
+
+How to use
+	Currently
+		int the photo upload file, specify the photo and caption and then run the program
+
+
+
+
+What I want
+
+	- Scrap the Top 1-10 posts continuously on a subreddit or group of subreddit
+	- Download the photos and compare them to already downloaded photos
+	- Upload new photos with the reddit caption and a group of hashtags
+
+
+
+Main Program
+	- Scrapes
+		if New photo
+			Upload photo (Photo, caption)
+		if Not new
+			continue
